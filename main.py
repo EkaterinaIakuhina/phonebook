@@ -56,7 +56,7 @@ for contact in contacts_list[1:]:
 
 for name_surname, rest_data_dict in new_contacts_list.items(): 
   contact_list = []
-  last_name, firstname = name_surname.split(' ')
+  last_name, first_name = name_surname.split(' ')
   contact_list.append(last_name)
   contact_list.append(first_name)
   for value in rest_data_dict.values():
